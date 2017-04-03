@@ -9,10 +9,10 @@ using System.Windows.Forms;
 
 namespace phantichyeucauphanmem
 {
-    public partial class Form1 : Form
+    public partial class frmInraction : Form
     {
         private bool isCheckPnMainSetting;
-        public Form1()
+        public frmInraction()
         {
             InitializeComponent();
             InitializeComponent2();
@@ -21,7 +21,6 @@ namespace phantichyeucauphanmem
         {
             //khởi tạo giao diện 
             //Ẩn tất cả các panel
-            pnThongTinNguoiDung.Hide();
             pnThongKe.Hide();
             pnLuanVan.Hide();
             pnNienLuan.Hide();
@@ -39,38 +38,29 @@ namespace phantichyeucauphanmem
             if (isCheckPnMainSetting)
             {
                 isCheckPnMainSetting = false;
-                pnMainSetting.Size = new Size(60, 482);
-                pnThongTinNguoiDung.Location = new Point(62, 1);
-                pnThongKe.Location = new Point(62, 1);
-                pnLuanVan.Location = new Point(62, 1);
-                pnNienLuan.Location = new Point(62, 1);
-                pnDeTai.Location = new Point(62, 1);
+                
+                pnMainSetting.Size = new Size(60, 661);
+                //pnThongTinNguoiDung.Location = new Point(62, 1);
+                //pnThongKe.Location = new Point(62, 1);
+                //pnLuanVan.Location = new Point(62, 1);
+                //pnNienLuan.Location = new Point(62, 1);
+                //pnDeTai.Location = new Point(62, 1);
+
             }
             else
             {
                 isCheckPnMainSetting = true;  
-                pnMainSetting.Size = new Size(148, 482);
-                pnThongTinNguoiDung.Location = new Point(154, 1);
-                pnThongKe.Location = new Point(154, 1);
-                pnLuanVan.Location = new Point(154, 1);
-                pnNienLuan.Location = new Point(154, 1);
-                pnDeTai.Location = new Point(154, 1);
+                pnMainSetting.Size = new Size(148, 661);
+                //pnThongTinNguoiDung.Location = new Point(154, 1);
+                //pnThongKe.Location = new Point(154, 1);
+                //pnLuanVan.Location = new Point(154, 1);
+                //pnNienLuan.Location = new Point(154, 1);
+                //pnDeTai.Location = new Point(154, 1);
             }
 
         }
-
-        private void btnUser_Click(object sender, EventArgs e)
-        {
-            pnThongTinNguoiDung.Show();
-            pnThongKe.Hide();
-            pnLuanVan.Hide();
-            pnNienLuan.Hide();
-            pnDeTai.Hide();
-        }
-
         private void btnStatistic_Click(object sender, EventArgs e)
         {
-            pnThongTinNguoiDung.Hide();
             pnThongKe.Show();
             pnLuanVan.Hide();
             pnNienLuan.Hide();
@@ -79,7 +69,6 @@ namespace phantichyeucauphanmem
 
         private void btnDissertation_Click(object sender, EventArgs e)
         {
-            pnThongTinNguoiDung.Hide();
             pnThongKe.Hide();
             pnLuanVan.Show();
             pnNienLuan.Hide();
@@ -87,7 +76,6 @@ namespace phantichyeucauphanmem
         }
 
         private void btnNienLuan_Click(object sender, EventArgs e){
-            pnThongTinNguoiDung.Hide();
             pnThongKe.Hide();
             pnLuanVan.Hide();
             pnNienLuan.Show();
@@ -95,7 +83,6 @@ namespace phantichyeucauphanmem
         }
         private void button6_Click(object sender, EventArgs e)
         {
-            pnThongTinNguoiDung.Hide();
             pnThongKe.Hide();
             pnLuanVan.Hide();
             pnNienLuan.Hide();
@@ -113,5 +100,54 @@ namespace phantichyeucauphanmem
 
         }
 
+        private void button8_Click(object sender, EventArgs e)
+        {
+
         }
+
+        private void pnMainSetting_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void comboBox10_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox9_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
