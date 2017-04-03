@@ -6,3 +6,13 @@ D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantic
 D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
 D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.exe
 D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.pdb
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.exe
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.pdb
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csprojResolveAssemblyReference.cache
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.Properties.Resources.resources
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.exe
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.pdb
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.GUI.frmChamDiemLuanVan.resources
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.frmInraction.resources
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.frmLogin.resources
