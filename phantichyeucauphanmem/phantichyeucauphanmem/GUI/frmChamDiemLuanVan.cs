@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace phantichyeucauphanmem
+namespace phantichyeucauphanmem.GUI
 {
-    public partial class frmLogin : Form
+    public partial class frmChamDiemLuanVan : Form
     {
-        public frmLogin()
+        public frmChamDiemLuanVan()
         {
             InitializeComponent();
         }

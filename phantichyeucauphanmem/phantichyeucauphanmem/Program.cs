@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using phantichyeucauphanmem.GUI;
+using System;
 using System.Windows.Forms;
 
 namespace phantichyeucauphanmem
@@ -15,7 +14,9 @@ namespace phantichyeucauphanmem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmInraction());
+            //Application.Run(new frmChamDiemLuanVan());
+            //Application.Run(new frmLogin());
         }
     }
 }
