@@ -38,3 +38,15 @@ E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\
 E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
 E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.exe
 E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.pdb
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\TopicManagement.mdf
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\TopicManagement_log.ldf
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.exe
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.pdb
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csprojResolveAssemblyReference.cache
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.GUI.frmChamDiemLuanVan.resources
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.frmInraction.resources
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.frmLogin.resources
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.Properties.Resources.resources
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.exe
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.pdb

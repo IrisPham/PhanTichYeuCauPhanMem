@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using System.Data.OleDb;
 namespace phantichyeucauphanmem
 {
     public partial class frmInraction : Form
@@ -190,7 +190,7 @@ namespace phantichyeucauphanmem
             if (isCheckPnMainSetting)
             {
                 isCheckPnMainSetting = false;
-                
+
                 pnMainSetting.Size = new Size(60, 661);
                 //pnThongTinNguoiDung.Location = new Point(62, 1);
                 //pnThongKe.Location = new Point(62, 1);
@@ -201,7 +201,7 @@ namespace phantichyeucauphanmem
             }
             else
             {
-                isCheckPnMainSetting = true;  
+                isCheckPnMainSetting = true;
                 pnMainSetting.Size = new Size(148, 661);
                 //pnThongTinNguoiDung.Location = new Point(154, 1);
                 //pnThongKe.Location = new Point(154, 1);
@@ -227,7 +227,8 @@ namespace phantichyeucauphanmem
             pnDeTai.Hide();
         }
 
-        private void btnNienLuan_Click(object sender, EventArgs e){
+        private void btnNienLuan_Click(object sender, EventArgs e)
+        {
             pnThongKe.Hide();
             pnLuanVan.Hide();
             pnNienLuan.Show();
@@ -301,5 +302,84 @@ namespace phantichyeucauphanmem
         {
 
         }
+
+        private void btnBrowse_Click(object sender, EventArgs e)
+        {
+            //Browse đến file cần import
+            OpenFileDialog ofd = new OpenFileDialog();
+            //Lấy đường dẫn file import vừa chọn
+            txtFilePath.Text = ofd.ShowDialog() == DialogResult.OK ? ofd.FileName : "";
+        }
+
+        private void btnImportSV_Click(object sender, EventArgs e)
+        {
+            if (!ValidInput())
+                return;
+            //Đọc dữ liệu từ tập tin excel trả về DataTable
+            DataTable data = ReadDataFromExcelFile();
+
+            //Import dữ liệu đọc vào database
+
+            //Lấy hết dữ liệu improt từ database hiển thị lên gridview
+
+        }
+        private bool ValidInput()
+        {
+            if (txtFilePath.Text.Trim() == "")
+            {
+                MessageBox.Show("Xin vui lòng chọn file từ tập tin excel cần import");
+                return false;
+            }
+            return true;
+        }
+        private DataTable ReadDataFromExcelFile()
+        {   //Provider=Microsoft.ACE.OLEDB.12.0
+            //Provider=Microsoft.Jet.OLEDB.4.0
+            String conectionExcel = "Provider=Microsoft.ACE.OLEDB.12.0; Extended Properties=Excel 8.0 ;Data Source=" + txtFilePath.Text.Trim();
+            //Tạo đối tượng kết nối
+            OleDbConnection oledbConn = new OleDbConnection(conectionExcel);
+            DataTable data = null;
+            try
+            {
+                //Mở kết nối
+                oledbConn.Open();
+
+                //Tạo đối tượng OleDBCommand và Query data từ sheet có tên là "Sheet1"
+                OleDbCommand cmd = new OleDbCommand(@"SELECT * FROM [Sheet1$]", oledbConn);
+
+                //Tạo đối tượng OleDbDataApdapter để thực thi việc lấy query lấy dữ liệu từ tập tin excel
+                OleDbDataAdapter oleda = new OleDbDataAdapter();
+                oleda.SelectCommand = cmd;
+
+                //Tạo đối tượng Dataset để ghi dữ liệu từ excel
+                DataSet ds = new DataSet();
+
+                //Đổ dữ liệu từ tập tin excel vào DataSet
+                oleda.Fill(ds);
+
+                data = ds.Tables[0];
+                dataGridView8.DataSource = data.DefaultView;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                //Đóng chuỗi kết nỗi
+                oledbConn.Close();
+            }
+            return data;
+        }
+        private void ImportIntoDatabase(DataTable data)
+        {
+            if (data == null || data.Rows.Count == 0)
+            {
+                MessageBox.Show("Không có dữ liệu để import");
+                return;
+            }
+
+        }
+
     }
 }

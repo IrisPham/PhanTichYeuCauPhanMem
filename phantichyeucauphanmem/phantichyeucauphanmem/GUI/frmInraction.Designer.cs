@@ -179,6 +179,16 @@
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.btnImport = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label32 = new System.Windows.Forms.Label();
+            this.txtFilePath = new System.Windows.Forms.TextBox();
+            this.btnBrowse = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.dataGridView8 = new System.Windows.Forms.DataGridView();
+            this.dataGridView9 = new System.Windows.Forms.DataGridView();
+            this.btnImportSV = new System.Windows.Forms.Button();
             this.pnMainSetting.SuspendLayout();
             this.pnThongKe.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -196,6 +206,9 @@
             this.pnDeTai.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSetting
@@ -215,6 +228,8 @@
             // 
             this.pnMainSetting.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pnMainSetting.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnMainSetting.Controls.Add(this.label17);
+            this.pnMainSetting.Controls.Add(this.btnImport);
             this.pnMainSetting.Controls.Add(this.label31);
             this.pnMainSetting.Controls.Add(this.label30);
             this.pnMainSetting.Controls.Add(this.btnHuongDan);
@@ -240,7 +255,7 @@
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label31.Location = new System.Drawing.Point(73, 527);
+            this.label31.Location = new System.Drawing.Point(73, 564);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(62, 19);
             this.label31.TabIndex = 16;
@@ -251,7 +266,7 @@
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label30.Location = new System.Drawing.Point(64, 508);
+            this.label30.Location = new System.Drawing.Point(64, 545);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(84, 19);
             this.label30.TabIndex = 15;
@@ -263,7 +278,7 @@
             this.btnHuongDan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnHuongDan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHuongDan.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnHuongDan.Location = new System.Drawing.Point(10, 502);
+            this.btnHuongDan.Location = new System.Drawing.Point(12, 545);
             this.btnHuongDan.Name = "btnHuongDan";
             this.btnHuongDan.Size = new System.Drawing.Size(44, 44);
             this.btnHuongDan.TabIndex = 14;
@@ -649,7 +664,7 @@
             this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.Location = new System.Drawing.Point(242, 256);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(48, 16);
+            this.label45.Size = new System.Drawing.Size(49, 16);
             this.label45.TabIndex = 41;
             this.label45.Text = "Đồ án";
             // 
@@ -668,7 +683,7 @@
             this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.Location = new System.Drawing.Point(120, 256);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(73, 16);
+            this.label43.Size = new System.Drawing.Size(75, 16);
             this.label43.TabIndex = 40;
             this.label43.Text = "Niên luận";
             // 
@@ -687,7 +702,7 @@
             this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.Location = new System.Drawing.Point(12, 256);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(70, 16);
+            this.label41.Size = new System.Drawing.Size(72, 16);
             this.label41.TabIndex = 39;
             this.label41.Text = "Luận văn";
             // 
@@ -809,7 +824,7 @@
             this.label12.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label12.Location = new System.Drawing.Point(168, 65);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(73, 16);
+            this.label12.Size = new System.Drawing.Size(76, 16);
             this.label12.TabIndex = 84;
             this.label12.Text = "Năm học:";
             // 
@@ -820,7 +835,7 @@
             this.label14.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label14.Location = new System.Drawing.Point(14, 65);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(60, 16);
+            this.label14.Size = new System.Drawing.Size(63, 16);
             this.label14.TabIndex = 82;
             this.label14.Text = "Học kỳ:";
             // 
@@ -1184,7 +1199,7 @@
             this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label72.Location = new System.Drawing.Point(242, 256);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(48, 16);
+            this.label72.Size = new System.Drawing.Size(49, 16);
             this.label72.TabIndex = 41;
             this.label72.Text = "Đồ án";
             // 
@@ -1203,7 +1218,7 @@
             this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label74.Location = new System.Drawing.Point(120, 256);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(73, 16);
+            this.label74.Size = new System.Drawing.Size(75, 16);
             this.label74.TabIndex = 40;
             this.label74.Text = "Niên luận";
             // 
@@ -1222,7 +1237,7 @@
             this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label76.Location = new System.Drawing.Point(12, 256);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(70, 16);
+            this.label76.Size = new System.Drawing.Size(72, 16);
             this.label76.TabIndex = 39;
             this.label76.Text = "Luận văn";
             // 
@@ -1321,7 +1336,7 @@
             this.label13.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label13.Location = new System.Drawing.Point(1, 2);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(112, 16);
+            this.label13.Size = new System.Drawing.Size(114, 16);
             this.label13.TabIndex = 0;
             this.label13.Text = "Trang thống kê";
             // 
@@ -1362,7 +1377,7 @@
             this.label18.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label18.Location = new System.Drawing.Point(515, 58);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(73, 16);
+            this.label18.Size = new System.Drawing.Size(76, 16);
             this.label18.TabIndex = 20;
             this.label18.Text = "Năm học:";
             this.label18.Click += new System.EventHandler(this.label18_Click);
@@ -1388,7 +1403,7 @@
             this.label19.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label19.Location = new System.Drawing.Point(321, 58);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(56, 16);
+            this.label19.Size = new System.Drawing.Size(59, 16);
             this.label19.TabIndex = 18;
             this.label19.Text = "Học kì:";
             this.label19.Click += new System.EventHandler(this.label19_Click);
@@ -1497,7 +1512,7 @@
             this.label22.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label22.Location = new System.Drawing.Point(1, 2);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(115, 16);
+            this.label22.Size = new System.Drawing.Size(118, 16);
             this.label22.TabIndex = 0;
             this.label22.Text = "Trang Luận văn";
             // 
@@ -1524,7 +1539,7 @@
             this.label21.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label21.Location = new System.Drawing.Point(515, 58);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(73, 16);
+            this.label21.Size = new System.Drawing.Size(76, 16);
             this.label21.TabIndex = 31;
             this.label21.Text = "Năm học:";
             // 
@@ -1548,7 +1563,7 @@
             this.label23.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label23.Location = new System.Drawing.Point(321, 58);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(56, 16);
+            this.label23.Size = new System.Drawing.Size(59, 16);
             this.label23.TabIndex = 29;
             this.label23.Text = "Học kì:";
             // 
@@ -1628,7 +1643,7 @@
             this.label25.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label25.Location = new System.Drawing.Point(1, 2);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(122, 16);
+            this.label25.Size = new System.Drawing.Size(126, 16);
             this.label25.TabIndex = 21;
             this.label25.Text = "Trang Niên Luận";
             // 
@@ -1656,7 +1671,7 @@
             this.label26.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label26.Location = new System.Drawing.Point(515, 58);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(73, 16);
+            this.label26.Size = new System.Drawing.Size(76, 16);
             this.label26.TabIndex = 41;
             this.label26.Text = "Năm học:";
             this.label26.Click += new System.EventHandler(this.label26_Click);
@@ -1682,7 +1697,7 @@
             this.label27.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label27.Location = new System.Drawing.Point(321, 58);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(56, 16);
+            this.label27.Size = new System.Drawing.Size(59, 16);
             this.label27.TabIndex = 39;
             this.label27.Text = "Học kì:";
             this.label27.Click += new System.EventHandler(this.label27_Click);
@@ -1764,9 +1779,109 @@
             this.label29.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label29.Location = new System.Drawing.Point(1, 2);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(94, 16);
+            this.label29.Size = new System.Drawing.Size(96, 16);
             this.label29.TabIndex = 32;
             this.label29.Text = "Trang Đồ Án";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label17.Location = new System.Drawing.Point(65, 507);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(54, 19);
+            this.label17.TabIndex = 18;
+            this.label17.Text = "Import";
+            // 
+            // btnImport
+            // 
+            this.btnImport.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnImport.BackgroundImage")));
+            this.btnImport.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnImport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnImport.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnImport.Location = new System.Drawing.Point(12, 497);
+            this.btnImport.Name = "btnImport";
+            this.btnImport.Size = new System.Drawing.Size(44, 44);
+            this.btnImport.TabIndex = 17;
+            this.btnImport.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btnImportSV);
+            this.panel1.Controls.Add(this.dataGridView9);
+            this.panel1.Controls.Add(this.dataGridView8);
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.btnBrowse);
+            this.panel1.Controls.Add(this.txtFilePath);
+            this.panel1.Controls.Add(this.label32);
+            this.panel1.Location = new System.Drawing.Point(62, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1136, 662);
+            this.panel1.TabIndex = 14;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label32.Location = new System.Drawing.Point(3, 4);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(299, 16);
+            this.label32.TabIndex = 1;
+            this.label32.Text = "Trang nhập danh sách đề tài và sinh viên";
+            // 
+            // txtFilePath
+            // 
+            this.txtFilePath.Location = new System.Drawing.Point(296, 36);
+            this.txtFilePath.Name = "txtFilePath";
+            this.txtFilePath.Size = new System.Drawing.Size(396, 20);
+            this.txtFilePath.TabIndex = 2;
+            // 
+            // btnBrowse
+            // 
+            this.btnBrowse.Location = new System.Drawing.Point(710, 36);
+            this.btnBrowse.Name = "btnBrowse";
+            this.btnBrowse.Size = new System.Drawing.Size(75, 23);
+            this.btnBrowse.TabIndex = 3;
+            this.btnBrowse.Text = "Chọn tập tin";
+            this.btnBrowse.UseVisualStyleBackColor = true;
+            this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(168, 72);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(131, 23);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Import danh sách đề tài";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView8
+            // 
+            this.dataGridView8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView8.Location = new System.Drawing.Point(17, 101);
+            this.dataGridView8.Name = "dataGridView8";
+            this.dataGridView8.Size = new System.Drawing.Size(464, 550);
+            this.dataGridView8.TabIndex = 5;
+            // 
+            // dataGridView9
+            // 
+            this.dataGridView9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView9.Location = new System.Drawing.Point(595, 101);
+            this.dataGridView9.Name = "dataGridView9";
+            this.dataGridView9.Size = new System.Drawing.Size(530, 550);
+            this.dataGridView9.TabIndex = 6;
+            // 
+            // btnImportSV
+            // 
+            this.btnImportSV.Location = new System.Drawing.Point(794, 72);
+            this.btnImportSV.Name = "btnImportSV";
+            this.btnImportSV.Size = new System.Drawing.Size(163, 23);
+            this.btnImportSV.TabIndex = 7;
+            this.btnImportSV.Text = "Import danh sách sinh viên";
+            this.btnImportSV.UseVisualStyleBackColor = true;
+            this.btnImportSV.Click += new System.EventHandler(this.btnImportSV_Click);
             // 
             // frmInraction
             // 
@@ -1774,11 +1889,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1199, 663);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnMainSetting);
-            this.Controls.Add(this.pnThongKe);
             this.Controls.Add(this.pnLuanVan);
             this.Controls.Add(this.pnNienLuan);
             this.Controls.Add(this.pnDeTai);
+            this.Controls.Add(this.pnThongKe);
             this.Name = "frmInraction";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hệ thống quản lí Luận Văn, Niên Luận";
@@ -1808,6 +1924,10 @@
             this.pnDeTai.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1963,6 +2083,16 @@
         private System.Windows.Forms.Label label86;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button btnImport;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnImportSV;
+        private System.Windows.Forms.DataGridView dataGridView9;
+        private System.Windows.Forms.DataGridView dataGridView8;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnBrowse;
+        private System.Windows.Forms.TextBox txtFilePath;
+        private System.Windows.Forms.Label label32;
     }
 }
 

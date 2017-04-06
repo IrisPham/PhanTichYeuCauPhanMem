@@ -17,3 +17,14 @@ D:\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanm
 D:\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.frmLogin.resources
 D:\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.Properties.Resources.resources
 D:\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\bin\Debug\TopicManagement.mdf
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\bin\Debug\TopicManagement_log.ldf
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\bin\Debug\phantichyeucauphanmem.exe
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\bin\Debug\phantichyeucauphanmem.pdb
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.GUI.frmChamDiemLuanVan.resources
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.frmInraction.resources
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.frmLogin.resources
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.Properties.Resources.resources
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.exe
+D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.pdb
