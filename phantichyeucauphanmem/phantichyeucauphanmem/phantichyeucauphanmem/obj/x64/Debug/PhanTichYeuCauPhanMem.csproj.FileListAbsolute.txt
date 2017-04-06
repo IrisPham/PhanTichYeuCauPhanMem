@@ -1,0 +1,32 @@
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.exe
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.pdb
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.Form1.resources
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.Login.resources
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.Properties.Resources.resources
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.exe
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.pdb
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.exe
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.pdb
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csprojResolveAssemblyReference.cache
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.Login.resources
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.Properties.Resources.resources
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.exe
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.pdb
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.GUI.frmChamDiemLuanVan.resources
+C:\Users\Visual-Studio\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.frmInraction.resources
+C:\Users\NguyenTrong\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\ConnectionSQL\TopicManagement.mdf
+C:\Users\NguyenTrong\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\ConnectionSQL\TopicManagement_log.ldf
+C:\Users\NguyenTrong\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.exe
+C:\Users\NguyenTrong\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.pdb
+C:\Users\NguyenTrong\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csprojResolveAssemblyReference.cache
+C:\Users\NguyenTrong\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.GUI.frmChamDiemLuanVan.resources
+C:\Users\NguyenTrong\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.frmInraction.resources
+C:\Users\NguyenTrong\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.Login.resources
+C:\Users\NguyenTrong\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.Properties.Resources.resources
+C:\Users\NguyenTrong\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
+C:\Users\NguyenTrong\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.exe
+C:\Users\NguyenTrong\Desktop\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.pdb
+C:\Users\Visual-Studio\Desktop\PTYCPM\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.exe
+C:\Users\Visual-Studio\Desktop\PTYCPM\phantichyeucauphanmem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.pdb

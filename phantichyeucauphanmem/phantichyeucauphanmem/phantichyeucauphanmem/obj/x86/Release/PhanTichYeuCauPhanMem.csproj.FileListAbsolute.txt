@@ -1,0 +1,8 @@
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\bin\Release\phantichyeucauphanmem.exe
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\bin\Release\phantichyeucauphanmem.pdb
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Release\phantichyeucauphanmem.Form1.resources
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Release\phantichyeucauphanmem.Login.resources
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Release\phantichyeucauphanmem.Properties.Resources.resources
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Release\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Release\phantichyeucauphanmem.exe
+D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Release\phantichyeucauphanmem.pdb

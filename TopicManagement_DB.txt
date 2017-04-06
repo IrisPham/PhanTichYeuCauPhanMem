@@ -1,0 +1,90 @@
+***Table***	Account
+
+CREATE TABLE [dbo].[Account] (
+    [UserName] VARCHAR (16)  NOT NULL,
+    [Password] VARCHAR (16)  NOT NULL,
+    [Name]     NVARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([UserName] ASC)
+);
+
+***Table***	Subject
+
+CREATE TABLE [dbo].[Subject] (
+    [SubjectID]   CHAR (5)      NOT NULL,
+    [SubjectName] NVARCHAR (50) NOT NULL,
+    [Credit]      INT           NOT NULL,
+    PRIMARY KEY CLUSTERED ([SubjectID] ASC)
+);
+
+***Table***	Topic
+
+CREATE TABLE [dbo].[Topic] (
+    [TopicID]     INT            NOT NULL,
+    [TopicName]   NVARCHAR (500) NOT NULL,
+    [Status]      NVARCHAR (50)  NOT NULL,
+    [Mark]        INT            NULL,
+    [TypeOfTopic] VARCHAR(7)  NOT NULL,
+    [Performer]   VARCHAR(7)  NOT NULL,
+    [SubjectID]   CHAR (5)       NOT NULL,
+    PRIMARY KEY CLUSTERED ([TopicID] ASC),
+    CONSTRAINT [FK_Topic_ToTable] FOREIGN KEY ([SubjectID]) REFERENCES [dbo].[Subject] ([SubjectID])
+);
+
+***Table***	Student
+
+CREATE TABLE [dbo].[Student] (
+    [StudentID]   CHAR (8)      NOT NULL,
+    [StudentName] NVARCHAR (50) NOT NULL,
+    [Email]       VARCHAR (50)  NOT NULL,
+    [TopicID]     INT           NOT NULL,
+    [Specialized] NVARCHAR (70) NOT NULL,
+    PRIMARY KEY CLUSTERED ([StudentID] ASC),
+    CONSTRAINT [FK_Student_ToTable] FOREIGN KEY ([TopicID]) REFERENCES [dbo].[Topic] ([TopicID])
+);
+
+***Table***	Guider
+
+CREATE TABLE [dbo].[Guider] (
+    [GuiderID]   INT           NOT NULL,
+    [GuiderName] NVARCHAR (50) NOT NULL,
+    [TopicID]    INT           NOT NULL,
+    [Role]       VARCHAR(8) NOT NULL,
+    CONSTRAINT [PK_Guider] PRIMARY KEY CLUSTERED ([GuiderID] ASC, [TopicID] ASC),
+    CONSTRAINT [FK_Guider_ToTable] FOREIGN KEY ([TopicID]) REFERENCES [dbo].[Topic] ([TopicID])
+);
+
+***Table***	Maker
+
+CREATE TABLE [dbo].[Marker] (
+    [Mark]       INT            NOT NULL,
+    [Comment]    NVARCHAR (500) NULL,
+    [MarkerName] NVARCHAR (50)  NOT NULL,
+    [TopicID]    INT            NOT NULL,
+    [MarkerID]   INT            NOT NULL,
+    PRIMARY KEY CLUSTERED ([MarkerID] ASC, [Mark] ASC, [TopicID] ASC),
+    CONSTRAINT [FK_Marker_ToTable] FOREIGN KEY ([TopicID]) REFERENCES [dbo].[Topic] ([TopicID])
+);
+
+***Table***	Time
+
+CREATE TABLE [dbo].[Time] (
+    [SchoolYear] CHAR (9)    NOT NULL,
+    [Semester]   VARCHAR (3) NOT NULL,
+    [TopicID]    INT         NOT NULL,
+    PRIMARY KEY CLUSTERED ([SchoolYear] ASC),
+    CONSTRAINT [FK_Time_ToTable] FOREIGN KEY ([TopicID]) REFERENCES [dbo].[Topic] ([TopicID])
+);
+
+***Data_Test
+
+	Table_Subject
+
+insert into Subject values ('CT446','Niên lu?n co s? - CNTT',3);
+insert into Subject values ('CT252','Niên lu?n co s? ngành h? th?ng thông tin',3);
+insert into Subject values ('CT239','Niên lu?n co s? ngành KTPM',3);
+insert into Subject values ('CT201','Niên lu?n co s? ngành Khoa h?c máy tính',3);
+insert into Subject values ('CT226','Niên lu?n co s? m?ng máy tính và truy?n thông',3);
+
+	Table_Topic
+
+insert into Topic values (,'','',);
