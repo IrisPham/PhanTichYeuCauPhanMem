@@ -28,3 +28,13 @@ D:\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanm
 D:\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.pdb
 C:\Users\Visual-Studio\Desktop\PTYCPM\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.exe
 C:\Users\Visual-Studio\Desktop\PTYCPM\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.pdb
+E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.exe
+E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\bin\x64\Debug\phantichyeucauphanmem.pdb
+E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csprojResolveAssemblyReference.cache
+E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.GUI.frmChamDiemLuanVan.resources
+E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.frmInraction.resources
+E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.frmLogin.resources
+E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.Properties.Resources.resources
+E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
+E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.exe
+E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.pdb
