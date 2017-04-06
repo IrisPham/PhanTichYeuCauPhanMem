@@ -229,13 +229,6 @@
         fliNM9ItB7X1av7tS3lJmGJeEqaYl4Qp5iVhzB6G/gKlD4RhxOqAuAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAA1sAAAADCAIAAADqa4JVAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAACBJREFUWEftwQEBAAAIwyD7l55BDhwAAAAAsC0AAJbVA/0OB4aqAOU5AAAAAElF
-        TkSuQmCC
-</value>
-  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA1sAAAADCAIAAADqa4JVAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -243,6 +236,13 @@
         TkSuQmCC
 </value>
   </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAA1sAAAADCAIAAADqa4JVAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAACBJREFUWEftwQEBAAAIwyD7l55BDhwAAAAAsC0AAJbVA/0OB4aqAOU5AAAAAElF
+        TkSuQmCC
+</value>
+  </data>
   <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -351,4 +351,15 @@
   <metadata name="dataGridViewTextBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="btnImport.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAAVZJREFUWEft
+        l7FLAzEUxiOCm5MIRc0d1MGhs/+DKI6Ci6uziyBYoZPQweZSdHDRDk661r9Cdwc3/Q8E588X+lpCe9FX
+        L11KfvBxx0u+l++4cFxUYmqAhbUr6MygXkV1i0w9YpG7Tk9e4DQr8EVCJH1Tzya3l7NhsVPSLIq0xSEv
+        I4NM1mvwTnqtqDfSoJ/FAy8jg0z3Q3Nuscvlf6MLbHth+lyWkcKESGFCpDAhUpgQKUyIFCbEXIepdbFK
+        IY6d3L8Sl2XEDlOJuQ6ju9ikV/TEOuOyjOhh/A1c4JnLMsiQwpRC55u7kdnikq4Hf6qDBtuVu88N9oai
+        g9wJzRn0M3jxx5waLSyxdRJtcD4yS2XQYrt7mJvSOQG57xBbJ1m/xgpN+hg3/apZhXG4QLRfLmiRW5E6
+        2Gerold7RLWep763+OfYWG+rjWW2zp5KGzg2KUwIeRilfgCyF3tpFsXplAAAAABJRU5ErkJggg==
+</value>
+  </data>
 </root>
