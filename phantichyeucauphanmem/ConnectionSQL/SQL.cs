@@ -15,7 +15,7 @@ namespace phantichyeucauphanmem.ConnectionSQL
         {
             try
             {
-                sql = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\detaiquanlidiemsinhvien.mdf;Integrated Security=True;" + "MultiSubnetFailover=true;" + "MultipleActiveResultSets=true");
+                sql = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = D:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\TopicManagement.mdf; Integrated Security = True");
                 sql.Open();
 
             }

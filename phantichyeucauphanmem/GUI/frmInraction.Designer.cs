@@ -201,7 +201,7 @@
             this.label29 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.btnImport = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnImportFile = new System.Windows.Forms.Panel();
             this.btnImportSV = new System.Windows.Forms.Button();
             this.dataGridView9 = new System.Windows.Forms.DataGridView();
             this.dataGridView8 = new System.Windows.Forms.DataGridView();
@@ -226,7 +226,7 @@
             this.pnDeTai.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.pnImportFile.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
             this.SuspendLayout();
@@ -427,7 +427,7 @@
             // pnThongKe
             // 
             this.pnThongKe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnThongKe.Controls.Add(this.panel1);
+            this.pnThongKe.Controls.Add(this.pnImportFile);
             this.pnThongKe.Controls.Add(this.label34);
             this.pnThongKe.Controls.Add(this.label33);
             this.pnThongKe.Controls.Add(this.label32);
@@ -2052,21 +2052,22 @@
             this.btnImport.Size = new System.Drawing.Size(44, 44);
             this.btnImport.TabIndex = 19;
             this.btnImport.UseVisualStyleBackColor = true;
+            this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
             // 
-            // panel1
+            // pnImportFile
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.btnImportSV);
-            this.panel1.Controls.Add(this.dataGridView9);
-            this.panel1.Controls.Add(this.dataGridView8);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.btnBrowse);
-            this.panel1.Controls.Add(this.txtFilePath);
-            this.panel1.Controls.Add(this.label36);
-            this.panel1.Location = new System.Drawing.Point(-1, -1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1136, 661);
-            this.panel1.TabIndex = 15;
+            this.pnImportFile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnImportFile.Controls.Add(this.btnImportSV);
+            this.pnImportFile.Controls.Add(this.dataGridView9);
+            this.pnImportFile.Controls.Add(this.dataGridView8);
+            this.pnImportFile.Controls.Add(this.button4);
+            this.pnImportFile.Controls.Add(this.btnBrowse);
+            this.pnImportFile.Controls.Add(this.txtFilePath);
+            this.pnImportFile.Controls.Add(this.label36);
+            this.pnImportFile.Location = new System.Drawing.Point(-1, -1);
+            this.pnImportFile.Name = "pnImportFile";
+            this.pnImportFile.Size = new System.Drawing.Size(1136, 661);
+            this.pnImportFile.TabIndex = 15;
             // 
             // btnImportSV
             // 
@@ -2171,8 +2172,8 @@
             this.pnDeTai.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pnImportFile.ResumeLayout(false);
+            this.pnImportFile.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
             this.ResumeLayout(false);
@@ -2352,7 +2353,7 @@
         private System.Windows.Forms.Label lblHLPhuN;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Button btnImport;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnImportFile;
         private System.Windows.Forms.Button btnImportSV;
         private System.Windows.Forms.DataGridView dataGridView9;
         private System.Windows.Forms.DataGridView dataGridView8;

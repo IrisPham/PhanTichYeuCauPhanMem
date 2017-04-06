@@ -254,6 +254,7 @@ namespace phantichyeucauphanmem
             pnLuanVan.Hide();
             pnNienLuan.Hide();
             pnDeTai.Hide();
+            pnImportFile.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -294,6 +295,7 @@ namespace phantichyeucauphanmem
             pnLuanVan.Hide();
             pnNienLuan.Hide();
             pnDeTai.Hide();
+            pnImportFile.Hide();
         }
 
         private void btnDissertation_Click(object sender, EventArgs e)
@@ -302,6 +304,7 @@ namespace phantichyeucauphanmem
             pnLuanVan.Show();
             pnNienLuan.Hide();
             pnDeTai.Hide();
+            pnImportFile.Hide();
         }
 
         private void btnNienLuan_Click(object sender, EventArgs e){
@@ -309,6 +312,7 @@ namespace phantichyeucauphanmem
             pnLuanVan.Hide();
             pnNienLuan.Show();
             pnDeTai.Hide();
+            pnImportFile.Hide();
         }
         private void button6_Click(object sender, EventArgs e)
         {
@@ -316,8 +320,16 @@ namespace phantichyeucauphanmem
             pnLuanVan.Hide();
             pnNienLuan.Hide();
             pnDeTai.Show();
+            pnImportFile.Hide();
         }
-
+        private void btnImport_Click(object sender, EventArgs e)
+        {
+            pnThongKe.Hide();
+            pnLuanVan.Hide();
+            pnNienLuan.Hide();
+            pnDeTai.Hide();
+            pnImportFile.Show();
+        }
         private void btnLogOut_Click(object sender, EventArgs e)
         {
             this.Dispose();

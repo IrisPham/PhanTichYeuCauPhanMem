@@ -14,9 +14,9 @@ namespace phantichyeucauphanmem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmInraction());
+            //Application.Run(new frmInraction());
             //Application.Run(new frmChamDiemLuanVan());
-            //Application.Run(new frmLogin());
+            Application.Run(new frmLogin());
         }
     }
 }
