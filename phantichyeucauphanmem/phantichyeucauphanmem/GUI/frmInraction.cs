@@ -13,7 +13,9 @@ namespace phantichyeucauphanmem
     {
         private int PhanTram(int SoCanTinh, int Tong)
         {
-            return (SoCanTinh * 100) / Tong;
+            if (Tong > 0)
+                return (SoCanTinh * 100) / Tong;
+            return 0;
         }
 
         private void HienBieuDo()
@@ -32,20 +34,20 @@ namespace phantichyeucauphanmem
             lblHDPhu.Show();
         }
 
-        private void GiauBieuDo()
+        public static void GiauBieuDo(ref frmInraction f)
         {
-            lblCLChinh.Hide();
-            lblCLPhu.Hide();
-            lblCNChinh.Hide();
-            lblCNPhu.Hide();
-            lblCDChinh.Hide();
-            lblCDPhu.Hide();
-            lblHLChinh.Hide();
-            lblHNPhu.Hide();
-            lblHLPhu.Hide();
-            lblHNChinh.Hide();
-            lblHDChinh.Hide();
-            lblHDPhu.Hide();
+            f.lblCLChinh.Hide();
+            f.lblCLPhu.Hide();
+            f.lblCNChinh.Hide();
+            f.lblCNPhu.Hide();
+            f.lblCDChinh.Hide();
+            f.lblCDPhu.Hide();
+            f.lblHLChinh.Hide();
+            f.lblHNPhu.Hide();
+            f.lblHLPhu.Hide();
+            f.lblHNChinh.Hide();
+            f.lblHDChinh.Hide();
+            f.lblHDPhu.Hide();
         }
 
         private void ThongKe(int[] cLuanVan, int[] cNienLuan, int[] cDoAn, int[] hLuanVan, int[] hNienLuan, int[] hDoAn)
@@ -235,12 +237,13 @@ namespace phantichyeucauphanmem
             InitializeComponent();
             InitializeComponent2();
             int[] cLuanVan = { 34, 66 };
-            int[] cNienLuan = { 55, 45 };
+            int[] cNienLuan = { 0, 0 };
             int[] cDoAn = { 32, 68 };
-            int[] hLuanVan = { 0, 100, 5, 95 };
+            int[] hLuanVan = { 0, 0, 0, 0 };
             int[] hNienLuan = { 30, 70, 40, 60 };
             int[] hDoAn = { 11, 89 };
             ThongKe(cLuanVan, cNienLuan, cDoAn, hLuanVan, hNienLuan, hDoAn);
+
         }
         private void InitializeComponent2()
         {

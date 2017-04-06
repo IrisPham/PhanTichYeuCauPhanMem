@@ -1,9 +1,0 @@
-D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.Form1.resources
-D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.Login.resources
-D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.Properties.Resources.resources
-D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
-D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\bin\Debug\phantichyeucauphanmem.exe
-D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\bin\Debug\phantichyeucauphanmem.pdb
-D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.exe
-D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\phantichyeucauphanmem.pdb
-D:\Data\Monhoc\Phân tích yêu cầu phần mềm\phantichyeucauphanmem\phantichyeucauphanmem\obj\x86\Debug\PhanTichYeuCauPhanMem.csprojResolveAssemblyReference.cache

@@ -38,3 +38,5 @@ E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\
 E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\PhanTichYeuCauPhanMem.csproj.GenerateResource.Cache
 E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.exe
 E:\GITHUB\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.pdb
+C:\Users\Visual-Studio\Desktop\New folder (4)\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.exe
+C:\Users\Visual-Studio\Desktop\New folder (4)\phantichyeucauphanmem\phantichyeucauphanmem\obj\x64\Debug\phantichyeucauphanmem.pdb
