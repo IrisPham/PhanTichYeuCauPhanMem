@@ -7,6 +7,29 @@ CREATE TABLE [dbo].[Account] (
     PRIMARY KEY CLUSTERED ([UserName] ASC)
 );
 
+***Table***	Subject
+
+CREATE TABLE [dbo].[Subject] (
+    [SubjectID]   CHAR (5)      NOT NULL,
+    [SubjectName] NVARCHAR (50) NOT NULL,
+    [Credit]      INT           NOT NULL,
+    PRIMARY KEY CLUSTERED ([SubjectID] ASC)
+);
+
+***Table***	Topic
+
+CREATE TABLE [dbo].[Topic] (
+    [TopicID]     INT            NOT NULL,
+    [TopicName]   NVARCHAR (500) NOT NULL,
+    [Status]      NVARCHAR (50)  NOT NULL,
+    [Mark]        INT            NULL,
+    [TypeOfTopic] VARCHAR(7)  NOT NULL,
+    [Performer]   VARCHAR(7)  NOT NULL,
+    [SubjectID]   CHAR (5)       NOT NULL,
+    PRIMARY KEY CLUSTERED ([TopicID] ASC),
+    CONSTRAINT [FK_Topic_ToTable] FOREIGN KEY ([SubjectID]) REFERENCES [dbo].[Subject] ([SubjectID])
+);
+
 ***Table***	Student
 
 CREATE TABLE [dbo].[Student] (
@@ -42,15 +65,6 @@ CREATE TABLE [dbo].[Marker] (
     CONSTRAINT [FK_Marker_ToTable] FOREIGN KEY ([TopicID]) REFERENCES [dbo].[Topic] ([TopicID])
 );
 
-***Table***	Subject
-
-CREATE TABLE [dbo].[Subject] (
-    [SubjectID]   CHAR (5)      NOT NULL,
-    [SubjectName] NVARCHAR (50) NOT NULL,
-    [Credit]      INT           NOT NULL,
-    PRIMARY KEY CLUSTERED ([SubjectID] ASC)
-);
-
 ***Table***	Time
 
 CREATE TABLE [dbo].[Time] (
@@ -59,20 +73,6 @@ CREATE TABLE [dbo].[Time] (
     [TopicID]    INT         NOT NULL,
     PRIMARY KEY CLUSTERED ([SchoolYear] ASC),
     CONSTRAINT [FK_Time_ToTable] FOREIGN KEY ([TopicID]) REFERENCES [dbo].[Topic] ([TopicID])
-);
-
-***Table***	Topic
-
-CREATE TABLE [dbo].[Topic] (
-    [TopicID]     INT            NOT NULL,
-    [TopicName]   NVARCHAR (500) NOT NULL,
-    [Status]      NVARCHAR (50)  NOT NULL,
-    [Mark]        INT            NULL,
-    [TypeOfTopic] VARCHAR(7)  NOT NULL,
-    [Performer]   VARCHAR(7)  NOT NULL,
-    [SubjectID]   CHAR (5)       NOT NULL,
-    PRIMARY KEY CLUSTERED ([TopicID] ASC),
-    CONSTRAINT [FK_Topic_ToTable] FOREIGN KEY ([SubjectID]) REFERENCES [dbo].[Subject] ([SubjectID])
 );
 
 ***Data_Test
