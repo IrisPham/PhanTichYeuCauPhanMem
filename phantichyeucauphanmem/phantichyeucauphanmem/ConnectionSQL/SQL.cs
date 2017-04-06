@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 using System.Windows.Forms;
 namespace phantichyeucauphanmem.ConnectionSQL
 {
-    class SQL
+     class SQL
     {
         //Phan xu li ket noi sql
         public static SqlCommand comnd;
@@ -15,7 +15,7 @@ namespace phantichyeucauphanmem.ConnectionSQL
         {
             try
             {
-                sql = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\detaiquanlidiemsinhvien.mdf;Integrated Security=True;" + "MultiSubnetFailover=true;" + "MultipleActiveResultSets=true");
+                sql = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Thanh\Gifthup\PhanTichYeuCauPhanMem\phantichyeucauphanmem\phantichyeucauphanmem\TopicManagement.mdf;Integrated Security=True;User Instance=True");
                 sql.Open();
 
             }
