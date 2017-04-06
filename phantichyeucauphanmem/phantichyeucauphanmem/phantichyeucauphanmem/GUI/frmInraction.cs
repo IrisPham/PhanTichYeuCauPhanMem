@@ -11,13 +11,12 @@ namespace phantichyeucauphanmem
 {
     public partial class frmInraction : Form
     {
-        private int PhanTram(int SoCanTinh, int Tong)
-        {
+
+        private int PhanTram(int SoCanTinh, int Tong) {
             return (SoCanTinh * 100) / Tong;
         }
 
-        private void HienBieuDo()
-        {
+        private void HienBieuDo() {
             lblCLChinh.Show();
             lblCLPhu.Show();
             lblCNChinh.Show();
@@ -32,8 +31,7 @@ namespace phantichyeucauphanmem
             lblHDPhu.Show();
         }
 
-        private void GiauBieuDo()
-        {
+        private void GiauBieuDo() {
             lblCLChinh.Hide();
             lblCLPhu.Hide();
             lblCNChinh.Hide();
@@ -48,8 +46,7 @@ namespace phantichyeucauphanmem
             lblHDPhu.Hide();
         }
 
-        private void ThongKe(int[] cLuanVan, int[] cNienLuan, int[] cDoAn, int[] hLuanVan, int[] hNienLuan, int[] hDoAn)
-        {
+        private void ThongKe(int []cLuanVan, int []cNienLuan, int []cDoAn, int []hLuanVan, int []hNienLuan, int []hDoAn) {
 
             int cluanvan, cnienluan, cdoan, hluanvan, hnienluan, hdoan;
 
@@ -86,7 +83,7 @@ namespace phantichyeucauphanmem
             lblHTong.Text = (hluanvan + hnienluan + hdoan).ToString();
 
             //Vẽ biểu đồ cột cho đề tài luận văn chưa hoàn thành
-            lblCLChinh.Height = PhanTram(cLuanVan[1], cluanvan) * 2;
+            lblCLChinh.Height = PhanTram(cLuanVan[1],cluanvan) * 2;
             lblCLPhu.Height = 200 - lblCLChinh.Height;
             lblCLChinh.Location = new Point(lblCLPhu.Location.X, lblCLPhu.Location.Y + lblCLPhu.Height);
             if (lblCLChinh.Height < lblCLPhu.Height)
@@ -161,22 +158,21 @@ namespace phantichyeucauphanmem
         {
             InitializeComponent();
             InitializeComponent2();
-            int[] cLuanVan = { 34, 66 };
-            int[] cNienLuan = { 54, 45 };
-            int[] cDoAn = { 32, 68 };
-            int[] hLuanVan = { 12, 88 };
-            int[] hNienLuan = { 24, 76 };
-            int[] hDoAn = { 11, 89 };
+            int[] cLuanVan = { 20, 80 };
+            int[] cNienLuan = { 30, 70 };
+            int[] cDoAn = { 50, 50 };
+            int[] hLuanVan = { 10, 90 };
+            int[] hNienLuan = { 60, 40 };
+            int[] hDoAn = { 0, 100 };
+            
             ThongKe(cLuanVan, cNienLuan, cDoAn, hLuanVan, hNienLuan, hDoAn);
         }
         private void InitializeComponent2()
         {
             //khởi tạo giao diện 
             //Ẩn tất cả các panel
+            pnThongTinNguoiDung.Hide();
             pnThongKe.Hide();
-            pnLuanVan.Hide();
-            pnNienLuan.Hide();
-            pnDeTai.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -211,34 +207,33 @@ namespace phantichyeucauphanmem
             }
 
         }
+
+        private void btnUser_Click(object sender, EventArgs e)
+        {
+            pnThongTinNguoiDung.Show();
+            pnThongKe.Hide();
+        }
+
         private void btnStatistic_Click(object sender, EventArgs e)
         {
+            pnThongTinNguoiDung.Hide();
             pnThongKe.Show();
-            pnLuanVan.Hide();
-            pnNienLuan.Hide();
-            pnDeTai.Hide();
         }
 
         private void btnDissertation_Click(object sender, EventArgs e)
         {
+            pnThongTinNguoiDung.Hide();
             pnThongKe.Hide();
-            pnLuanVan.Show();
-            pnNienLuan.Hide();
-            pnDeTai.Hide();
         }
 
         private void btnNienLuan_Click(object sender, EventArgs e){
+            pnThongTinNguoiDung.Hide();
             pnThongKe.Hide();
-            pnLuanVan.Hide();
-            pnNienLuan.Show();
-            pnDeTai.Hide();
         }
         private void button6_Click(object sender, EventArgs e)
         {
+            pnThongTinNguoiDung.Hide();
             pnThongKe.Hide();
-            pnLuanVan.Hide();
-            pnNienLuan.Hide();
-            pnDeTai.Show();
         }
 
         private void btnLogOut_Click(object sender, EventArgs e)
